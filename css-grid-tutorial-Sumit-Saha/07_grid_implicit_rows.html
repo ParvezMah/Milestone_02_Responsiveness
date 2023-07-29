@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./base.css">
+    <title>Grid Implicit Rows</title>
+    <style>
+
+        .container{
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(Auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(1, 1fr);
+
+            /* It made for implicitly/automatically created rows */
+            grid-auto-rows: 1fr;
+
+            /* It made for implicitly/automatically created column */
+            /* grid-auto-columns: 1fr; */
+        }        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+</body>
+</html>

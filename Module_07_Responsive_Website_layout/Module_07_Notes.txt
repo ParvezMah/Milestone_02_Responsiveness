@@ -1,0 +1,27 @@
+👉👉👉👉👉👉👉👉👉👉7.1 measuring units and responsive design explanation👈👈👈👈👈👈👈👈👈👈
+
+1. 10 Good Website Layout Ideas (with Examples) : https://websitesetup.org/website-layouts/
+2. vw & vh are changable (if i rotate)   and   vmin & vmax are not changable (if i rotate too).
+
+
+👉👉👉👉👉👉👉👉👉👉7.8👈👈👈👈👈👈👈👈👈👈
+Question 1: What is the difference between Grid and Flexbox?
+
+Answer: Grid and Flexbox are both CSS layout systems used to arrange elements on a web page, but they have different purposes:
+
+Flexbox (Flexible Box Layout): Flexbox is a one-dimensional layout system designed to handle alignment and distribution of elements within a container along a single axis (either horizontally or vertically). It is ideal for creating flexible and dynamic layouts for items within a container.
+
+Grid (CSS Grid Layout): Grid is a two-dimensional layout system that allows you to define rows and columns to create a grid-like structure. It provides more control over the placement and sizing of elements within a container and is suitable for complex, grid-based layouts.
+
+👉👉👉👉👉👉👉👉👉👉Practise Task 3👈👈👈👈👈👈👈👈👈👈
+1. grid column  &   grid row   gulu ke span korar somoy   tader ke ID diye select korte hobe.
+
+
+
+
+
+
+
+
+
+

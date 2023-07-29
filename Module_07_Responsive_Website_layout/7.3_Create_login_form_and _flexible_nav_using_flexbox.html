@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./7.3_Create_login_form_and _flexible_nav_using_flexbox.css">
+    <title>Login Form and Flexible NavBar</title>
+    <style>
+        nav{
+            display:flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color:black;
+        }
+        .login-form-container{
+            display: flex;
+            height: 90vh;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid salmon;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            border: 2px solid red;
+        }
+        .login-form input{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+        </div>
+        <a href="">Login</a>
+    </nav>
+    <section class="login-form-container">
+        <form class="login-form">
+            <h3>Please Log In</h3>
+            <input type="email" placeholder="Your email" name="" id="" required>
+            <input type="password" placeholder="Your password" name="" id="" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+</html>

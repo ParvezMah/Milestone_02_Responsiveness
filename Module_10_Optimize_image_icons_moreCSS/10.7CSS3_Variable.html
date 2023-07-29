@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Variable</title>
+    <style>
+        :root{
+            --primary-color:tomato;
+            --secondary-color:green;
+            --font-size:20px;
+        }
+
+        h1{
+            color: var(--primary-color);
+        }
+        h5{
+            background-color: var(--primary-color);
+        }
+        .box{
+            border: 2px solid var(--primary-color);
+            width: calc(100% - 300px);
+        }
+        .box p{
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <h1>My Custiom Property</h1>
+    <h5>Always commonly used as CSS Variables</h5>
+    <div class="box">
+        <h3>I am doing somthing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat commodi adipisci officiis magnam qui numquam ipsum, odit eligendi deserunt, at deleniti ipsa consectetur illo amet quis! Dolorum impedit et illum perferendis, fugit ullam autem saepe reiciendis voluptas aut quis praesentium commodi rerum ea necessitatibus neque culpa veniam nisi omnis odit!</p>
+    </div>
+</body>
+</html>
